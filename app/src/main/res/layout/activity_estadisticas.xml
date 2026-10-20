@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvUsuEst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Usuario"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#003399"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estadísticas"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView android:id="@+id/tvAct" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Activaciones: 0" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+    <TextView android:id="@+id/tvDes" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Desactivaciones: 0" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+    <TextView android:id="@+id/tvObs" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Obstáculos Detectados: 0" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+    <TextView android:id="@+id/tvDist" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Distancia Total: 0 cm" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:backgroundTint="#B00020"
+        android:layout_marginTop="24dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

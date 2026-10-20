@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "727840556834",
+    "project_id": "appiotu2",
+    "storage_bucket": "appiotu2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727840556834:android:bda73fbb7ada0278cfc77b",
+        "android_client_info": {
+          "package_name": "cl.inacap.appiot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7qenVLOXi0ZxFglazZi86b1_4KUCB1Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
